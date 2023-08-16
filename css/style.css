@@ -11,6 +11,9 @@ a{
 ul,ol{
     list-style-type: none;
 }
+.clr{
+    clear: both;
+}
 
 /*all common css end*/
 
