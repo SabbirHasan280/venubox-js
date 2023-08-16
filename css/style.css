@@ -1,0 +1,62 @@
+/*all common css start*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+/*all common css end*/
+
+/*venu box start*/
+#video{
+    background: url(../images/video.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.video-overly{
+    background: rgba(17, 17, 17, 0.5);
+    padding-top: 180px;
+    padding-bottom: 180px;   
+}
+.video-text{
+    margin-top: 50px;
+}
+.video-text i{
+    width: 70px;
+    height: 70px;
+    background: #62646a;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 70px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.video-text h4{
+    font-family: ;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.video-text p{
+    font-family: ;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 540px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+/*venu box end*/
